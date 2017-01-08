@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Rectangle2a.iml" filepath="$PROJECT_DIR$/Rectangle2a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/prostokat/prostokat.iml" filepath="$PROJECT_DIR$/prostokat/prostokat.iml" />
+    </modules>
+  </component>
+</project>
