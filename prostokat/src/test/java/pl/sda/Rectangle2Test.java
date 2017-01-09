@@ -73,5 +73,28 @@ public class Rectangle2Test {
         assertTrue(allCrossingPoints.contains(new Point(2, 5)));
 
     }
+
+    @Test
+    public void findAllCrossingPoints_NegativeCase(){
+
+        // given
+        Point point1 = new Point(-2, -2);
+        Point point2 = new Point(5, 5);
+        Point point1a = new Point(5, 5);
+        Point point2a = new Point(2, -2);
+        Rectangle2 rectangle2 = new Rectangle2(point1, point2);
+        Rectangle2 rectangle2a = new Rectangle2(point1a, point2a);
+
+        //when
+        List<Point> allCrossingPoints = rectangle2.findAllCrossingPoints(rectangle2a);
+
+        //then
+        assertEquals(4, allCrossingPoints.size());
+        assertTrue(allCrossingPoints.contains(new Point(5, 5)));
+        assertTrue(allCrossingPoints.contains(new Point(5, -2)));
+        assertTrue(allCrossingPoints.contains(new Point(2, 5)));
+        assertTrue(allCrossingPoints.contains(new Point(2, -2)));
+
+    }
 }
 
