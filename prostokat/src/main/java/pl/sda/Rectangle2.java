@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 //Rozwiazanie wstepne
-//Niezbyt elegancko ale dziala
+//Niezbyt elegancko ale dziala ^^
 
 public class Rectangle2 {
 
