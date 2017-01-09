@@ -12,9 +12,9 @@ public class Rectangle {
 
     Rectangle rectangle2 = new Rectangle();
     Point point1a = new Point(2, 2);
-    Point point2a = new Point(2, 12);
+    Point point2a = new Point(12, 2);
     Point point3a = new Point(2, 7);
-    Point point4a = new Point(7, 12);
+    Point point4a = new Point(12, 7);
 
 
 
