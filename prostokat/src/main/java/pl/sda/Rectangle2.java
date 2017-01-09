@@ -84,20 +84,20 @@ public class Rectangle2 {
         return crossingList;
     }
 
-    public int calculateSquare(List<Point> crossingPoints) {
-        if (crossingPoints.size() == 4) {
-
-            return ;
-        } else if (crossingPoints.size() == 2) {
-
-            return ;
-        } else if (crossingPoints.size() == 1) {
-
-            return ;
-        } else {
-            throw new IllegalArgumentException();
-        }
-    }
+//    public int calculateSquare(List<Point> crossingPoints) {
+//        if (crossingPoints.size() == 4) {
+//
+//            return ;
+//        } else if (crossingPoints.size() == 2) {
+//
+//            return ;
+//        } else if (crossingPoints.size() == 1) {
+//
+//            return ;
+//        } else {
+//            throw new IllegalArgumentException();
+//        }
+//    }
 
     public static void main(String[] args) {
         Point point1 = new Point(1, 1);
