@@ -104,14 +104,4 @@ public class Rectangle2 {
 //            throw new IllegalArgumentException();
 //        }
 //    }
-
-    public static void main(String[] args) {
-        Point point1 = new Point(1, 1);
-        Point point2 = new Point(5, 4);
-
-        Point point11 = new Point(2, 2);
-        Point point21 = new Point(6, 5);
-
-        System.out.println(new Rectangle2(point1, point2).findAllCrossingPoints(new Rectangle2(point11, point21)));
-    }
 }
