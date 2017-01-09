@@ -90,16 +90,22 @@ public class Rectangle2 {
         return crossingList;
     }
 
-//    public int calculateSquare(List<Point> crossingPoints) {
+//    public double calculateSquare(List<Point> crossingPoints) {
 //        if (crossingPoints.size() == 4) {
 //
-//            return ;
+//            return;
 //        } else if (crossingPoints.size() == 2) {
 //
-//            return ;
-//        } else if (crossingPoints.size() == 1) {
+//            int x1 = crossingPoints.get(0).getX();
+//            int x2 = crossingPoints.get(1).getX();
+//            int y1 = crossingPoints.get(0).getY();
+//            int y2 = crossingPoints.get(1).getY();
 //
-//            return ;
+//            double d = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
+//
+//            return Math.pow(d, 2) / 2;
+//        } else if (crossingPoints.size() == 1) {
+//            return 0d;
 //        } else {
 //            throw new IllegalArgumentException();
 //        }
